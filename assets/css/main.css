@@ -185,7 +185,7 @@ input, select, textarea {
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		margin: 0 0 1rem 0;
 	}
 
@@ -4389,11 +4389,11 @@ input, select, textarea {
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
-		font-weight: 900;
+		/*font-weight: 900;*/
 		letter-spacing: 0.075em;
 		line-height: 1.5;
 		text-align: center;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
@@ -4687,3 +4687,24 @@ input, select, textarea {
 		}
 
 	}
+
+
+/* Customized by Kevo */
+h1, p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 4rem !important;
+}
+
+p {
+	text-align: left !important;
+	/*color: black;*/
+	font-style: normal;
+}
+
+div#intro {
+	/*background: white;*/
+}
